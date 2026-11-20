@@ -1,0 +1,6 @@
+{
+  "name": "SKPFlow",
+  "description": "Asisten pencatatan aktivitas harian, pemetaan target kinerja, dan penyusunan laporan bulanan ASN.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

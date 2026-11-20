@@ -1,0 +1,21 @@
+/* Konfigurasi gaya global Tailwind CSS v4 dan tipografi Plus Jakarta Sans untuk SKPFlow. */
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: #fafafa;
+    color: #171717;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
